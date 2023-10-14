@@ -13,8 +13,8 @@ module.exports = withNextra({
   async redirects() {
     return [
       {
-        source: '/',
-        destination: '/patterns',
+        source: '/guide',
+        destination: '/guide',
         permanent: true,
       },
     ]
